@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(121, 196, 196);
+    color: #ffffff;
+}
+table {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid  rgb(49, 106, 184);;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #btn {
+    border-radius: 8px;
+    background-color: rgb(49, 106, 184);
+    width: 100px;
+    height: 60px;
+    color: white;
+  }
+
+  .holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
